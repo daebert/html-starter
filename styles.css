@@ -39,8 +39,12 @@ a:hover {
   background-color: #24282f;
 }
 .character {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
   background-color: #3c3e44;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
   color: white;
   margin: 10%;
 }
@@ -49,7 +53,10 @@ a:hover {
 }
 
 .charinfo {
+  display: grid;
   padding-left: 1em;
-  display: flex;
-  flex-direction: column;
+}
+
+.charinfo * {
+  margin: 0;
 }
