@@ -3,6 +3,12 @@ body {
   color: rgb(158, 158, 158);
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 h1 {
   margin-left: 0;
   margin-right: 0;
