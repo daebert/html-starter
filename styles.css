@@ -36,8 +36,13 @@ a:hover {
   text-align: center;
 }
 .charset {
+  padding: 2em;
+  display: grid;
   background-color: #24282f;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 2em;
 }
+
 .character {
   display: grid;
   grid-auto-flow: column;
@@ -46,7 +51,7 @@ a:hover {
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
   color: white;
-  margin: 10%;
+  margin: 2%;
 }
 .character h3 {
   color: #9d9d9d;
