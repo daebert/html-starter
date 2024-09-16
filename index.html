@@ -1,96 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>The Rick and Morty API</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Starter</title>
   </head>
   <body>
-    <section>
-      <h1>The Rick and Morty API</h1>
-    </section>
-    <section>
-      <article>
-        <img
-          src="https://rickandmortyapi.com/api/character/avatar/86.jpeg"
-          alt="Cyclops Rick"
-        />
-        <a href="https://rickandmortyapi.com/api/character/86"
-          ><h2>Cyclops Rick</h2></a
-        >
-        <p>Dead - Humanoid</p>
-        <p>Last known location:</p>
-        <a href="https://rickandmortyapi.com/api/location/3"
-          ><p>Citadel of Ricks</p></a
-        >
-        <p>First seen in:</p>
-        <a href="https://rickandmortyapi.com/api/episode/10"
-          ><p>Close Rick-counters of the Rick Kind</p></a
-        >
-      </article>
-
-      <article>
-        <img
-          src="https://rickandmortyapi.com/api/character/avatar/172.jpeg"
-          alt="Jamey"
-        />
-        <h2>Jamey</h2>
-        <p>Alive - Human</p>
-        <p>Last known location:</p>
-        <p>Earth (Replacement Dimension)</p>
-        <p>First seen in:</p>
-        <p>Get Schwifty</p>
-      </article>
-
-      <article>
-        <img
-          src="https://rickandmortyapi.com/api/character/avatar/222.jpeg"
-          alt="Michael Denny and the Denny Singers"
-        />
-        <h2>Michael Denny and the Denny Singers</h2>
-        <p>Alive - Human</p>
-        <p>Last known location:</p>
-        <p>Interdimensional Cable</p>
-        <p>First seen in:</p>
-        <p>Rixty Minutes</p>
-      </article>
-
-      <article>
-        <img
-          src="https://rickandmortyapi.com/api/character/avatar/401.jpeg"
-          alt="Morty Jr's interviewer"
-        />
-        <h2>Morty Jr's interviewer</h2>
-        <p>Alive - Human</p>
-        <p>Last known location:</p>
-        <p>Earth (Replacement Dimension)</p>
-        <p>First seen in:</p>
-        <p>Raising Gazorpazorp</p>
-      </article>
-
-      <article>
-        <img
-          src="https://rickandmortyapi.com/api/character/avatar/475.jpeg"
-          alt="Dancer Morty"
-        />
-        <h2>Dancer Morty</h2>
-        <p>Alive - Human</p>
-        <p>Last known location:</p>
-        <p>Citadel of Ricks</p>
-        <p>First seen in:</p>
-        <p>The Ricklantis Mixup</p>
-      </article>
-
-      <article>
-        <img
-          src="https://rickandmortyapi.com/api/character/avatar/537.jpeg"
-          alt="Maggie"
-        />
-        <h2>Maggie</h2>
-        <p>Alive - Human</p>
-        <p>Last known location:</p>
-        <p>arth (Replacement Dimension)</p>
-        <p>First seen in:</p>
-        <p>The The Old Man and the Seat</p>
-      </article>
-    </section>
+    <header class="header">
+      <nav>
+        <a href="https://rickandmortyapi.com/">Bild</a>
+        <ul>
+          <li>
+            <a href="https://rickandmortyapi.com/documentation">Docs</a>
+          </li>
+          <li>
+            <a href="https://rickandmortyapi.com/about">About</a>
+          </li>
+          <li>
+            <a href="https://rickandmortyapi.com/help-us">Help us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>The Rick and Morty API</h1>
+      </section>
+      <section class="charset">
+        <article class="character">
+          <img
+            src="https://rickandmortyapi.com/api/character/avatar/165.jpeg"
+            alt="Investigator Rick drinking"
+          />
+          <div class="charinfo">
+            <section>
+              <h2>
+                <a href="https://rickandmortyapi.com/api/character/165"
+                  >Investigator Rick</a
+                >
+              </h2>
+              <p>Dead - Human</p>
+            </section>
+            <section>
+              <h3>Last known location:</h3>
+              <a href="https://rickandmortyapi.com/api/location/3"
+                >Citadel of Ricks</a
+              >
+            </section>
+            <section>
+              <h3>First seen in:</h3>
+              <a href="https://rickandmortyapi.com/api/episode/28"
+                >The Ricklantis Mixup</a
+              >
+            </section>
+          </div>
+        </article>
+        <article class="character">
+          <img
+            src="https://rickandmortyapi.com/api/character/avatar/180.jpeg"
+            alt="Jessica smiling awkwardly"
+          />
+          <h2>
+            <a href="https://rickandmortyapi.com/api/character/180">Jessica</a>
+          </h2>
+          <p>Alive - Human</p>
+          <h3>Last known location:</h3>
+          <a href="https://rickandmortyapi.com/api/location/20"
+            >Earth (Replacement Dimension)</a
+          >
+          <h3>First seen in:</h3>
+          <a href="https://rickandmortyapi.com/api/episode/11"
+            >Ricksy Business</a
+          >
+        </article>
+      </section>
+    </main>
+    <footer>
+      <a href="https://rickandmortyapi.com/api/character"
+        ><span>Characters: 671</span></a
+      >
+      <a href="https://rickandmortyapi.com/api/location">
+        <span>Locations: 108</span></a
+      >
+      <a href="https://rickandmortyapi.com/api/episode">
+        <span>Episodes: 41</span></a
+      >
+      <a href="https://status.rickandmortyapi.com/">
+        <span>Server status</span></a
+      >
+    </footer>
   </body>
 </html>
